@@ -1,0 +1,14 @@
+{
+    "name": "<%= name %>",
+    "version": "0.0.1",
+    "description": "",
+    "main": "src/server.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest --config jest.config.ts --detectOpenHandles --coverage --maxWorkers=1"
+    },
+    "author": "Saman Arif",
+    "license": "MIT",
+    "devDependencies": <%= dependencies %>,
+    "dependencies": <%= devDependencies %>
+}
